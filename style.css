@@ -80,6 +80,10 @@ body {
     background-color: var(--light-blue);
     color: var(--white);
     border: 2px solid var(--light-blue);
+    /* Novas propriedades para alinhar ícone e texto */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 .btn-header:hover { background-color: var(--dark-blue); border-color: var(--dark-blue); transform: translateY(-2px); }
 
@@ -253,6 +257,7 @@ body {
 .service-card h3 { color: var(--dark-blue); margin-bottom: 15px; font-size: 1.6rem; font-weight: 700; }
 .service-card p { font-size: 1rem; color: #555; }
 
+
 /* ======================= CONTACT SECTION ======================= */
 .contact-section {
     padding: 100px 0;
@@ -329,6 +334,8 @@ body {
 .contact-map iframe {
     border-radius: 8px;
     border: 0;
+    width: 100%; 
+    height: 250px;
 }
 
 
